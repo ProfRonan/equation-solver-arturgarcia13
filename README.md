@@ -21,6 +21,6 @@ Faça um programa que receba um número indicando qual o grau da equação, se e
    2. Caso o usuário digite um valor de `b² - 4ac` menor do que `0`, o programa deve imprimir `A equação não possui raízes reais` e terminar.
    3. Caso o usuário digite um valor de `b² - 4ac` igual a `0`, o programa deve imprimir `A equação possui apenas uma raiz real` e terminar.
       Em seguida ele deve imprimir o valor da raiz com exatamente duas casas decimais, independentemente se o número for inteiro ou não.
-   4. Caso o usuário digite um valor de `b² - 4ac` maior do que `0`, o programa deve imprimir `A equação possui duas raízes reais` e terminar.
+   4. Caso o usuário digite um valor de `b² - 4ac` maior do que `0`, o programa deve imprimir `` e terminar.
       Em seguida ele deve imprimir o valor das raízes com exatamente duas casas decimais, independentemente se o número for inteiro ou não.
       A primeira raiz deve ser menor do que a segunda raiz e terminar.
