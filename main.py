@@ -11,9 +11,9 @@ elif grauFun == 1:
         print("Valor de a inválido")
     else:
         coefLin = float(input("Qual o valor de 'b'? "))
+        fun1Solu = (-(coefLin)/coefAng) # .2f
+        print(f'{fun1Solu:.2f}')
 
-    fun1Solu = (-(coefLin)/coefAng) # .2f
-    print(f'{fun1Solu:.2f}')
 
 elif grauFun == 2:
     print("A equação é do segundo grau: \n")
