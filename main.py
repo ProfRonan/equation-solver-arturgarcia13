@@ -35,6 +35,8 @@ elif grauFun == 2:
             fun2RaizPos = (-(var_b) + fun2Delta**0.5) / (2*var_a)
             fun2RaizNeg = (-(var_b) - fun2Delta**0.5) / (2*var_a)
             if fun2RaizPos > fun2RaizNeg :
-                print(fun2RaizNeg, "\n", fun2RaizPos)
+                print(f'{fun2RaizNeg:.2f}')
+                print(f'{fun2RaizPos:.2f}')
             else:
-                print(fun2RaizPos, "\n", fun2RaizNeg)
+                print(f'{fun2RaizPos:.2f}')
+                print(f'{fun2RaizNeg:.2f}')
