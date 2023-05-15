@@ -27,7 +27,7 @@ elif grauFun == 2:
         if fun2Delta < 0 :
             print("A equação não possui raízes reais")
         elif fun2Delta == 0 :
-            print("A equação possui apenas uma raiz real")
+            print("A equação possui uma raiz real")
             fun2Raiz = (-(var_b) + fun2Delta**0.5) / (2*var_a)
             print(f'{fun2Raiz:.2f}')
         elif fun2Delta > 0 :
